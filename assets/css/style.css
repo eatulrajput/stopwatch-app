@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+   background: url('/assets/images/bg.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #00000005;
+    background-blend-mode: lighten;
+    padding: 40px;
+    border-radius: 20%;
+    /* color: #866324; */
+    /* text-shadow: 3px 1px #ffbf64; */
+}
+
+#display {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#labels {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 28px;   
+}
+
+button:hover{
+    background-color: #f9a61c;
+}
+
+#laps {
+    margin-top: 10px;
+    text-align: left;
+}
